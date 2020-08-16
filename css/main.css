@@ -1,0 +1,154 @@
+body {
+  background-color: darkslategray;
+}
+.header {
+  padding: 0;
+}
+
+.navbar-brand img {
+  height: 53px;
+  width: 200px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: red;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 21px;
+}
+
+.navbar-light .navbar-nav .nav-link i {
+  color: black;
+  font-weight: bold;
+}
+
+.navbar-nav li button {
+  background-color: rgb(224, 224, 37);
+  color: white;
+  font-weight: bold;
+  border: 1px double darkgray;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.navbar-nav li button .fa-cutlery {
+  color: green !important;
+}
+
+.slider {
+  height: 300px;
+}
+
+.slider .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url("../img/imag.jfif");
+  background-size: cover;
+  height: 300px;
+  padding: 15px 15px;
+}
+
+.slider .container p {
+  color: white;
+  font-size: 32px;
+}
+
+.slider .container p span {
+  color: rgb(31, 192, 52);
+  font-weight: bold;
+}
+.image-logo {
+  display: flex;
+}
+.image-logo .container {
+  position: relative;
+}
+.image-logo img {
+  display: flex;
+  position: absolute;
+  left: 160px;
+  top: -56px;
+  height: 100px;
+  z-index: 2;
+}
+.info .container .row {
+  background-color: rgb(223, 213, 213);
+  display: flex;
+  justify-content: flex-end;
+}
+.info .container .col-sm-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info .container .col-sm-3 span {
+  color: rgb(223, 174, 15);
+  font-weight: bold;
+}
+.info .container .col-sm-3 i {
+  font-size: 30px;
+  margin-right: 10px;
+  color: rgb(214, 76, 76);
+}
+/* tableau */
+.tableau .container {
+  background-color: white;
+}
+.tableau .container .col-sm-6 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+}
+.tableau .container .col-sm-6 img {
+  width: 200px;
+  margin: 10px;
+}
+.tableau .container .col-sm-6 .img2 {
+  margin-top: -18px;
+  margin-left: -62px;
+}
+
+/* tableau */
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+}
